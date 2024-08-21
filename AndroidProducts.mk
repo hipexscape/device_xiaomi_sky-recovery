@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_sky.mk
+    $(LOCAL_DIR)/pb_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_sky-eng
+    pb_sky-user \
+    pb_sky-userdebug \
+    pb_sky-eng
